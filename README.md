@@ -173,9 +173,6 @@ cargo test
 cargo doc --no-deps
 ```
 
-Lints de [BeautifulRust](https://github.com/morganlinton/BeautifulRust) en
-`Cargo.toml` (`[lints]`) y `clippy.toml`.
-
 ## Licencia
 
 GPL-3.0-only. Texto completo en [`LICENSE`](LICENSE).

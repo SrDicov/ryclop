@@ -91,7 +91,7 @@ jobs:
           name: release-${{ matrix.arch }}
           path: |
             ryclop-*.tar.gz
-            ryclop-*-linux-musl
+            ryclop-${{ matrix.arch }}-linux-musl
             SHA256SUMS-*.txt
 
   release:

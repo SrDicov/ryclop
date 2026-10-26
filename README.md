@@ -21,6 +21,11 @@ como respaldo de bajo nivel (solo consulta/lista/eliminar).
 - **Sin caché ni estado en disco**.
 - **Ciudadano POSIX**: `ryp l | head` termina con `SIGPIPE`, sin pánico.
 
+## Descargar
+
+Binarios estáticos musl para x86_64, i686, aarch64, armv7 y riscv64 en
+<https://github.com/SrDicov/ryclop/releases>.
+
 ## Compilar
 
 ```sh
